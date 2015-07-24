@@ -36,9 +36,9 @@ run_analysis.R provides the following function
 
 	1. Download data from data source using appropriate technique for you platform into work_directory_for_analysis
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 	2. Unpack / unzip data while preserving the directory structure using appropriate technique for your platform
-tools like IZArc for windows or unzip for Linux
-			
+tools like IZArc for windows or unzip for Linux	
 			+ expected directory structure 
 			+ work_directory_for_analysis 
 				- getdata_projectfiles_UCI HAR Dataset
