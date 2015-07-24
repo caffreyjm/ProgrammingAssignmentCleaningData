@@ -1,7 +1,8 @@
 ##Reason for run_analysis.R :
 
 Summarization of wearable computing data collected from the accelerometers from the Samsung Galaxy S smartphone. 
-Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
+Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users
+using this data. 
 
 A full description is available at the site where the data was obtained:
 
@@ -11,22 +12,22 @@ Function:
 
 run_analysis.R provides the following function
 
-    Merges the training and the test sets to create one data set.
-    Extracts only the measurements on the mean and standard deviation for each measurement. 
-    Uses descriptive activity names to name the activities in the data set
-    Appropriately labels the data set with descriptive variable names. 
-	Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+-Merges the training and the test sets to create one data set.
+-Extracts only the measurements on the mean and standard deviation for each measurement. 
+-Uses descriptive activity names to name the activities in the data set
+-Appropriately labels the data set with descriptive variable names. 
+-Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Software Require:
 
-	R Version 3.2.1			tested with delivery (06-18_2015)
-	dplyr Version: 	0.4.2
+-R Version 3.2.1			tested with delivery (06-18_2015)
+-dplyr Version: 	0.4.2
 
 ##Platform Used during validation:
 
-	R Version 3.2.1			tested with delivery (06-18_2015)
-	dplyr Version: 	0.4.2
-							tested with Windows 7 Professional Service Pack 1
+-R Version 3.2.1			tested with delivery (06-18_2015)
+-dplyr Version: 			0.4.2
+-Windows 7					tested with Windows 7 Professional Service Pack 1
 
 ##Data Source:
 
@@ -59,4 +60,4 @@ tools like IZArc for windows or unzip for Linux
 ##Results:
 
 - message 	run_analysis.R completed successfully.  File written to work_directory/output_file_name
-- output_file	
+- output_file	see CodeBook.md for details
