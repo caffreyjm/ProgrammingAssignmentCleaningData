@@ -12,22 +12,22 @@ Function:
 
 run_analysis.R provides the following function
 
--Merges the training and the test sets to create one data set.
--Extracts only the measurements on the mean and standard deviation for each measurement. 
--Uses descriptive activity names to name the activities in the data set
--Appropriately labels the data set with descriptive variable names. 
--Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+ - Merges the training and the test sets to create one data set.
+ - Extracts only the measurements on the mean and standard deviation for each measurement. 
+ - Uses descriptive activity names to name the activities in the data set
+ - Appropriately labels the data set with descriptive variable names. 
+ - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Software Require:
 
--R Version 3.2.1			tested with delivery (06-18_2015)
--dplyr Version: 	0.4.2
+ - R Version 3.2.1			tested with delivery (06-18_2015)
+ - dplyr Version: 	0.4.2
 
 ##Platform Used during validation:
 
--R Version 3.2.1			tested with delivery (06-18_2015)
--dplyr Version: 			0.4.2
--Windows 7					tested with Windows 7 Professional Service Pack 1
+ - R Version 3.2.1			tested with delivery (06-18_2015)
+ - dplyr Version: 			0.4.2
+ - Windows 7					tested with Windows 7 Professional Service Pack 1
 
 ##Data Source:
 
@@ -40,12 +40,18 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 	2. Unpack / unzip data while preserving the directory structure using appropriate technique for your platform
 tools like IZArc for windows or unzip for Linux	
+
 			+ expected directory structure 
+
 			+ work_directory_for_analysis 
+
 				- getdata_projectfiles_UCI HAR Dataset
+
 					* UCI HAR Dataset
-						test
-						train
+
+					test
+
+					train
 	3. download run_analysis.R to work_directory_for_analysis
 	4. start R
 	5. change working directory to work_directory_for_analysis
